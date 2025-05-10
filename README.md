@@ -1,4 +1,3 @@
-
 # Student Management System
 
 A simple console-based Java application for managing student records. This system allows users to perform CRUD (Create, Read, Update, Delete) operations on student data, with role-based access for Admin and Viewer. Data persistence is achieved through serialization, and export options are provided via CSV.
@@ -27,11 +26,13 @@ A simple console-based Java application for managing student records. This syste
 ## How to Run
 
 1. Compile the Java file:
+
    ```bash
    javac Student.java
    ```
 
 2. Run the program:
+
    ```bash
    java Student
    ```
@@ -48,18 +49,18 @@ A simple console-based Java application for managing student records. This syste
 
 ## Functional Overview
 
-| Option | Function                        | Role     |
-|--------|----------------------------------|----------|
-| 1      | Add Student                      | Admin    |
-| 2      | View All Students                | Admin/Viewer |
-| 3      | Search Student by ID            | Admin/Viewer |
-| 4      | Update Student                  | Admin    |
-| 5      | Delete Student                  | Admin    |
-| 6      | Search Student by Name          | Admin/Viewer |
-| 7      | Sort Students (Name or Age)     | Admin/Viewer |
-| 8      | Show Summary Dashboard          | Admin/Viewer |
-| 9      | Export to CSV                   | Admin/Viewer |
-| 0      | Exit                             | All      |
+| Option | Function                    | Role         |
+| ------ | --------------------------- | ------------ |
+| 1      | Add Student                 | Admin        |
+| 2      | View All Students           | Admin/Viewer |
+| 3      | Search Student by ID        | Admin/Viewer |
+| 4      | Update Student              | Admin        |
+| 5      | Delete Student              | Admin        |
+| 6      | Search Student by Name      | Admin/Viewer |
+| 7      | Sort Students (Name or Age) | Admin/Viewer |
+| 8      | Show Summary Dashboard      | Admin/Viewer |
+| 9      | Export to CSV               | Admin/Viewer |
+| 0      | Exit                        | All          |
 
 ## Example CSV Output
 
@@ -72,4 +73,4 @@ id, name, age, course
 
 ## Author
 
-Developed by [Your Name]. Feel free to modify and expand the project as needed.
+Developed by Abu Sufiyan. Have great day!
